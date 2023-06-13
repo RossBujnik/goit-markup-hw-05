@@ -31,32 +31,34 @@
 		<!--Header-->
 
 		<header>
-			<div class="container header-settings">
-				<div class="menu-logo-gaps">
-					<a href="index.html"
-						><span class="brand-name01">Web</span
-						><span class="brand-name02">Studio</span></a
-					>
-					<a class="menu" href="#">Agencja</a>
-
-					<a class="menu" href="portfolio.html">Portfolio</a>
-
-					<a class="menu" href="#">Kontakt</a>
-				</div>
-				<div class="contacts-gaps">
-					<a class="contacts-gaps-icons" href="mailto:info@devstudio.com">
-						<svg class="header-svg" width="16px" height="12px">
-							<use href="./images/icons.svg#icon-envelope-2" />
-						</svg>
-						info@devstudio.com</a
-					>
-					<div class="contacts-gaps">
-						<a class="contacts-gaps-icons" href="tel:+48111111111">
-							<svg class="header-svg" width="16px" height="12px">
-								<use href="./images/icons.svg#icon-smartphone-1" />
-							</svg>
-							+48 111 111 111</a
+			<div class="header-border">
+				<div class="container header-settings">
+					<div class="menu-logo-gaps">
+						<a href="index.html"
+							><span class="brand-name01">Web</span
+							><span class="brand-name02">Studio</span></a
 						>
+						<a class="menu" href="#">Agencja</a>
+
+						<a class="menu" href="portfolio.html">Portfolio</a>
+
+						<a class="menu" href="#">Kontakt</a>
+					</div>
+					<div class="contacts-gaps">
+						<a class="contacts-gaps-icons" href="mailto:info@devstudio.com">
+							<svg class="header-svg" width="16px" height="12px">
+								<use href="./images/icons.svg#icon-envelope-2" />
+							</svg>
+							info@devstudio.com</a
+						>
+						<div class="contacts-gaps">
+							<a class="contacts-gaps-icons" href="tel:+48111111111">
+								<svg class="header-svg" width="16px" height="12px">
+									<use href="./images/icons.svg#icon-smartphone-1" />
+								</svg>
+								+48 111 111 111</a
+							>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -137,29 +139,32 @@
 				<div class="container">
 					<h2>Czym się zajmujemy</h2>
 					<ul class="activity">
-						<li>
+						<li class="activity-images">
 							<img
 								src="images/zd1-1.jpg"
 								alt="mężczyzna pracujący na komputerze"
 								width="370"
 								height="294"
 							/>
+							<p class="activity-label">APLIKACJE INTERNETOWE</p>
 						</li>
-						<li>
+						<li class="activity-images">
 							<img
 								src="images/zd1-2.jpg"
 								alt="mężczyzna ze smartfonem przed komputerem"
 								width="370"
 								height="294"
 							/>
+							<p class="activity-label">APLIKACJE MOBILNE</p>
 						</li>
-						<li>
+						<li class="activity-images">
 							<img
 								src="images/zd1-3.jpg"
 								alt="diagram na tablecie"
 								width="370"
 								height="294"
 							/>
+							<p class="activity-label">ROZWIĄZANIA GRAFICZNE</p>
 						</li>
 					</ul>
 				</div>
@@ -511,5 +516,6 @@
 				</div>
 			</div>
 		</footer>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
