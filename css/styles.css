@@ -489,6 +489,52 @@ h3 {
 	padding-bottom: 10px;
 }
 
+/* modal */
+
+.is-hidden {
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transform: scale(0);
+}
+.backdrop {
+	display: flex;
+	background: rgba(0, 0, 0, 0.2);
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	cursor: not-allowed;
+	transform: scale(1);
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	left: 536px;
+	top: 221px;
+	width: 528px;
+	height: 521px;
+	background: #ffffff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+.close-button {
+	position: absolute;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 1026px;
+	top: 229px;
+	background: #ffffff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 /* portfolio.html */
 img {
 	display: block;
