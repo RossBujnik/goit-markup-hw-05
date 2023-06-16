@@ -524,14 +524,18 @@ h3 {
 		0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 }
+.close-button-position {
+	padding-left: 500px;
+	padding-top: 17px;
+	padding-right: 17px;
+	padding-bottom: 553px;
+}
 .close-button {
 	position: absolute;
-	width: 30px;
-	height: 30px;
-	left: 1026px;
-	top: 229px;
 	background: #ffffff;
 	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	cursor: pointer;
 }
 
 /* portfolio.html */
