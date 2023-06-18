@@ -522,17 +522,21 @@ h3 {
 	border-radius: 4px;
 }
 .close-button-position {
-	padding-left: 500;
-	padding-top: 17px;
-	padding-right: 17px;
-	padding-bottom: 553px;
-}
-.close-button {
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	top: 14px;
+	right: 14px;
 	fill: #000000;
 	background: #ffffff;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 50%;
 	cursor: pointer;
+}
+.close-button {
+	margin: 6px;
 }
 
 /* portfolio.html */
